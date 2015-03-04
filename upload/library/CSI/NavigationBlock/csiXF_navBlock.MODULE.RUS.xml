@@ -29,7 +29,7 @@
       <sub_options></sub_options>
       <relation group_id="csiXF_navBlock" display_order="2"/>
     </option>
-    <option option_id="csiXF_navBlock_blockHTML" edit_format="textbox" data_type="string" can_backup="1">
+    <option option_id="csiXF_navBlock_content" edit_format="textbox" data_type="string" can_backup="1">
       <default_value></default_value>
       <edit_format_params>rows=10</edit_format_params>
       <sub_options></sub_options>
@@ -43,55 +43,55 @@
   </permissions>
   <phrases>
     <phrase title="csiXF_navBlock_title" version_id="1" version_string="1.0.0"><![CDATA[Навигация]]></phrase>
-    <phrase title="option_csiXF_navBlock_blockHTML" version_id="1" version_string="1.0.0"><![CDATA[HTML-разметка]]></phrase>
-    <phrase title="option_csiXF_navBlock_blockHTML_explain" version_id="1" version_string="1.0.0"><![CDATA[Введите HTML-разметку навигационных блоков.]]></phrase>
-    <phrase title="option_csiXF_navBlock_imgCaptionDesc" version_id="1" version_string="1.0.0"><![CDATA[Описание]]></phrase>
+    <phrase title="option_csiXF_navBlock_content" version_id="1" version_string="1.0.0"><![CDATA[HTML-разметка]]></phrase>
+    <phrase title="option_csiXF_navBlock_content_explain" version_id="1" version_string="1.0.0"><![CDATA[Введите HTML-разметку навигационных блоков.]]></phrase>
+    <phrase title="option_csiXF_navBlock_imgCaptionDesc" version_id="1" version_string="1.0.0"><![CDATA[Описание обложки]]></phrase>
     <phrase title="option_csiXF_navBlock_imgCaptionDesc_explain" version_id="1" version_string="1.0.0"><![CDATA[Введите сообщение, которое будет отображаться поверх обложки в виде описания.]]></phrase>
-    <phrase title="option_csiXF_navBlock_imgCaptionTitle" version_id="1" version_string="1.0.0"><![CDATA[Заголовок]]></phrase>
+    <phrase title="option_csiXF_navBlock_imgCaptionTitle" version_id="1" version_string="1.0.0"><![CDATA[Заголовок обложки]]></phrase>
     <phrase title="option_csiXF_navBlock_imgCaptionTitle_explain" version_id="1" version_string="1.0.0"><![CDATA[Введите сообщение, которое будет отображаться поверх обложки в виде заголовка.]]></phrase>
     <phrase title="option_group_csiXF_navBlock" version_id="1" version_string="1.0.0"><![CDATA[(CSI/XF/MODULE) Навигационный блок]]></phrase>
     <phrase title="option_group_csiXF_navBlock_description" version_id="1" version_string="1.0.0"><![CDATA[Навигационный блок, позволяющий быстро перемещаться между разделами портала. Настройки дополнения.]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleCell_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleCell_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое: Ячейка]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleContent_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleContent_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleCoverCaptionDesc_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleCoverCaptionDesc_master" version_id="1" version_string="1.0.0"><![CDATA[Обложка: подпись - описание]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleCoverCaptionTitle_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleCoverCaptionTitle_master" version_id="1" version_string="1.0.0"><![CDATA[Обложка: подпись - заголовок]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleCoverCaption_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleCoverCaption_master" version_id="1" version_string="1.0.0"><![CDATA[Обложка: подпись]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleCoverImg_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleCoverImg_master" version_id="1" version_string="1.0.0"><![CDATA[Обложка: изображение]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleCover_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleCover_master" version_id="1" version_string="1.0.0"><![CDATA[Обложка]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleIcon_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleIcon_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое: Иконка]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleImgCaption_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleImgCaption_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое: Подпись иконки]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleLinkHover_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleLinkHover_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое: Ссылка (при наведении)]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleLink_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleLink_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое: Ссылка]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleTable_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-    <phrase title="style_property_csiXF_navBlock_styleTable_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое: Таблица]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_cell_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_cell_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое: Ячейка]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_content_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_content_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_coverCaptionDesc_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_coverCaptionDesc_master" version_id="1" version_string="1.0.0"><![CDATA[Обложка: подпись - описание]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_coverCaptionTitle_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_coverCaptionTitle_master" version_id="1" version_string="1.0.0"><![CDATA[Обложка: подпись - заголовок]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_coverCaption_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_coverCaption_master" version_id="1" version_string="1.0.0"><![CDATA[Обложка: подпись]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_coverImg_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_coverImg_master" version_id="1" version_string="1.0.0"><![CDATA[Обложка: изображение]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_cover_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_cover_master" version_id="1" version_string="1.0.0"><![CDATA[Обложка]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_icon_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_icon_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое: Иконка]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_iconCaption_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_iconCaption_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое: Подпись иконки]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_linkHover_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_linkHover_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое: Ссылка (при наведении)]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_link_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_link_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое: Ссылка]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_table_description_master" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="style_property_csiXF_navBlock_table_master" version_id="1" version_string="1.0.0"><![CDATA[Содержимое: Таблица]]></phrase>
     <phrase title="style_property_group_csiXF_navBlock_master" version_id="1" version_string="1.0.0"><![CDATA[(CSI/XF/MODULE) Навигационный блок]]></phrase>
     <phrase title="style_property_group_csiXF_navBlock_master_desc" version_id="1" version_string="1.0.0"><![CDATA[Оформление навигационного блока в боковой панели XenForo.]]></phrase>
   </phrases>
   <route_prefixes/>
   <style_properties>
-    <property property_name="csiXF_navBlock_styleCover" property_type="css" definition="1" group_name="csiXF_navBlock" title="Обложка" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="10" sub_group=""><![CDATA[{"extra":"position: relative;"}]]></property>
-    <property property_name="csiXF_navBlock_styleCoverImg" property_type="css" definition="1" group_name="csiXF_navBlock" title="Обложка: изображение" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="20" sub_group=""><![CDATA[{"extra":"background-size: contain;"}]]></property>
-    <property property_name="csiXF_navBlock_styleCoverCaption" property_type="css" definition="1" group_name="csiXF_navBlock" title="Обложка: подпись" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="30" sub_group=""><![CDATA[{"extra":"position: absolute;\nleft: 10px;\nbottom: 10px;\nz-index: 1;"}]]></property>
-    <property property_name="csiXF_navBlock_styleCoverCaptionTitle" property_type="css" definition="1" group_name="csiXF_navBlock" title="Обложка: подпись - заголовок" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="40" sub_group=""><![CDATA[{"font-size":"20px"}]]></property>
-    <property property_name="csiXF_navBlock_styleCoverCaptionDesc" property_type="css" definition="1" group_name="csiXF_navBlock" title="Обложка: подпись - описание" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="50" sub_group=""><![CDATA[{"font-size":"11px"}]]></property>
-    <property property_name="csiXF_navBlock_styleContent" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="60" sub_group=""><![CDATA[{"extra":"position: relative;","margin-top":"10px"}]]></property>
-    <property property_name="csiXF_navBlock_styleTable" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое: Таблица" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="70" sub_group=""><![CDATA[{"border-bottom-color":"@primaryLighterStill","border-bottom-style":"solid","border-bottom-width":"1px","extra":"display: table;\nborder-collapse: collapse;\ntext-align: center;","width":"100%"}]]></property>
-    <property property_name="csiXF_navBlock_styleCell" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое: Ячейка" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="80" sub_group=""><![CDATA[{"border-right-color":"@primaryLighterStill","border-right-style":"solid","border-right-width":"1px","extra":"display: table-cell;"}]]></property>
-    <property property_name="csiXF_navBlock_styleLink" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое: Ссылка" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="90" sub_group=""><![CDATA[{"extra":"display: block;","padding-all":"10px"}]]></property>
-    <property property_name="csiXF_navBlock_styleLinkHover" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое: Ссылка (при наведении)" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="100" sub_group=""><![CDATA[{"text-decoration":{"none":"none"}}]]></property>
-    <property property_name="csiXF_navBlock_styleIcon" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое: Иконка" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="110" sub_group=""><![CDATA[{"extra":"display: block;","font-size":"2em"}]]></property>
-    <property property_name="csiXF_navBlock_styleImgCaption" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое: Подпись иконки" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="120" sub_group=""><![CDATA[{"extra":"display: block;"}]]></property>
+    <property property_name="csiXF_navBlock_cover" property_type="css" definition="1" group_name="csiXF_navBlock" title="Обложка" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="10" sub_group=""><![CDATA[{"extra":"position: relative;"}]]></property>
+    <property property_name="csiXF_navBlock_coverImg" property_type="css" definition="1" group_name="csiXF_navBlock" title="Обложка: изображение" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="20" sub_group=""><![CDATA[{"extra":"background-size: contain;"}]]></property>
+    <property property_name="csiXF_navBlock_coverCaption" property_type="css" definition="1" group_name="csiXF_navBlock" title="Обложка: подпись" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="30" sub_group=""><![CDATA[{"extra":"position: absolute;\nleft: 10px;\nbottom: 10px;\nz-index: 1;"}]]></property>
+    <property property_name="csiXF_navBlock_coverCaptionTitle" property_type="css" definition="1" group_name="csiXF_navBlock" title="Обложка: подпись - заголовок" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="40" sub_group=""><![CDATA[{"font-size":"20px"}]]></property>
+    <property property_name="csiXF_navBlock_coverCaptionDesc" property_type="css" definition="1" group_name="csiXF_navBlock" title="Обложка: подпись - описание" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="50" sub_group=""><![CDATA[{"font-size":"11px"}]]></property>
+    <property property_name="csiXF_navBlock_content" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="60" sub_group=""><![CDATA[{"extra":"position: relative;","margin-top":"10px"}]]></property>
+    <property property_name="csiXF_navBlock_table" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое: Таблица" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="70" sub_group=""><![CDATA[{"border-bottom-color":"@primaryLighterStill","border-bottom-style":"solid","border-bottom-width":"1px","extra":"display: table;\nborder-collapse: collapse;\ntable-layout: fixed;\ntext-align: center;","width":"100%"}]]></property>
+    <property property_name="csiXF_navBlock_cell" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое: Ячейка" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="80" sub_group=""><![CDATA[{"border-right-color":"@primaryLighterStill","border-right-style":"solid","border-right-width":"1px","extra":"display: table-cell;"}]]></property>
+    <property property_name="csiXF_navBlock_link" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое: Ссылка" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="90" sub_group=""><![CDATA[{"extra":"display: block;","padding-all":"10px"}]]></property>
+    <property property_name="csiXF_navBlock_linkHover" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое: Ссылка (при наведении)" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="100" sub_group=""><![CDATA[{"text-decoration":{"none":"none"}}]]></property>
+    <property property_name="csiXF_navBlock_icon" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое: Иконка" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="110" sub_group=""><![CDATA[{"extra":"display: block;","font-size":"2em"}]]></property>
+    <property property_name="csiXF_navBlock_iconCaption" property_type="css" definition="1" group_name="csiXF_navBlock" title="Содержимое: Подпись иконки" description="" css_components="text,background,border,layout,extra" scalar_type="" scalar_parameters="" display_order="120" sub_group=""><![CDATA[{"extra":"display: block;"}]]></property>
     <group group_name="csiXF_navBlock" display_order="99999999">
       <title><![CDATA[(CSI/XF/MODULE) Навигационный блок]]></title>
       <description><![CDATA[Оформление навигационного блока в боковой панели XenForo.]]></description>
@@ -99,32 +99,31 @@
   </style_properties>
   <templates>
     <template title="csiXF_navBlock.css" version_id="1" version_string="1.0.0"><![CDATA[.csiXF_navBlock .cover {
-  position: relative;
-  {xen:property csiXF_navBlock_styleCover}
+  {xen:property csiXF_navBlock_cover}
 }
 
 .csiXF_navBlock .cover .img {
-  {xen:property csiXF_navBlock_styleCoverImg}
+  {xen:property csiXF_navBlock_coverImg}
 }
 
 .csiXF_navBlock .cover .caption {
-  {xen:property csiXF_navBlock_styleCoverCaption}
+  {xen:property csiXF_navBlock_coverCaption}
 }
 
 .csiXF_navBlock .cover .caption .title {
-  {xen:property csiXF_navBlock_styleCoverCaptionTitle}
+  {xen:property csiXF_navBlock_coverCaptionTitle}
 }
 
 .csiXF_navBlock .cover .caption .desc {
-  {xen:property csiXF_navBlock_styleCoverCaptionDesc}
+  {xen:property csiXF_navBlock_coverCaptionDesc}
 }
 
 .csiXF_navBlock .content {
-  {xen:property csiXF_navBlock_styleContent}
+  {xen:property csiXF_navBlock_content}
 }
 
 .csiXF_navBlock .content ol {
-  {xen:property csiXF_navBlock_styleTable}
+  {xen:property csiXF_navBlock_table}
 }
 
 .csiXF_navBlock .content ol:last-child {
@@ -132,7 +131,7 @@
 }
 
 .csiXF_navBlock .content li {
-  {xen:property csiXF_navBlock_styleCell}
+  {xen:property csiXF_navBlock_cell}
 }
 
 .csiXF_navBlock .content li:last-child {
@@ -140,19 +139,19 @@
 }
 
 .csiXF_navBlock .content a {
-  {xen:property csiXF_navBlock_styleLink}
+  {xen:property csiXF_navBlock_link}
 }
 
 .csiXF_navBlock .content a:hover {
-  {xen:property csiXF_navBlock_styleLinkHover}
+  {xen:property csiXF_navBlock_linkHover}
 }
 
 .csiXF_navBlock .content a span.icon {
-  {xen:property csiXF_navBlock_styleIcon}
+  {xen:property csiXF_navBlock_icon}
 }
 
 .csiXF_navBlock .content a span.caption {
-  {xen:property csiXF_navBlock_styleImgCaption}
+  {xen:property csiXF_navBlock_iconCaption}
 }]]></template>
     <template title="csiXF_navBlock" version_id="1" version_string="1.0.0"><![CDATA[<xen:require css="csiXF_navBlock.css" />
 
@@ -169,7 +168,7 @@
           </div>
         </div>
         <div class="content">
-          {xen:raw $xenOptions.csiXF_navBlock_blockHTML}
+          {xen:raw $xenOptions.csiXF_navBlock_content}
       </div>
       </div>
     </div>
